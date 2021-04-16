@@ -12,6 +12,8 @@
         <title>TA START</title>
     </head>
     <body>
+        <h1>Kovpak Vladislav</h1>
+        <h1>Group IP-12</h1>
         <h1>My TA labs</h1>
         <p>This is a paragraph</p>
 
