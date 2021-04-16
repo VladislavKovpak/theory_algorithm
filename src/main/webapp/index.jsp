@@ -15,7 +15,7 @@
         <h1>Kovpak Vladislav</h1>
         <h1>Group IP-12</h1>
         <h1>My TA labs</h1>
-        <p>This is a paragraph</p>
+        <p>This is a labs</p>
 
         <form action="lab1.jsp">
             <input type="submit" value="Lab1">
