@@ -21,9 +21,9 @@ public class SimpleApp {
     
     MyFirstJavaClass.setMyStaticInt(10);
     System.out.println(MyFirstJavaClass.toStringStatic());
-    }*/
+    }
     
-   /* DecimalFormat df = new DecimalFormat("###.####");
+    DecimalFormat df = new DecimalFormat("###.####");
     System.out.println(df.format(PI));*/
     
     float f1 = 2.035678f;

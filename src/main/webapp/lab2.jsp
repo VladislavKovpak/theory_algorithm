@@ -4,6 +4,7 @@
     Author     : HP-Notebook
 --%>
 
+<%@page import="knu.fit.ist.ta.MyFirstJavaClass"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -12,20 +13,22 @@
         <title>This is lab2!</title>
     </head>
     <body>
-        <h1>This is lab2!</h1>
+        <h1 align = "center">Task for lab2</h1>
+        <p align = "center">sqrt(dx)/(a * x^2 + b * x + c)</p>
+        <p align = "center">a = 4 b =-6 c =-9 d = 1</p>
         
-        <p><%=request.getAttribute("result")%></p>
-        
-        <div> 
-            <form action="lab2form.jsp">
-                <input type="submit" value="New x">
-            </form> 
+        <h1 align = "center"> <%=request.getAttribute("result")%></h1>
+                
+       <div>
+           <form align = "center" action = "lab2form.jsp">
+               <input type ="submit" value ="New x">
+           </form>
        </div>
         
-        <div> 
-            <form action="index.jsp">
-                <input type="submit" value="Home">
-            </form> 
+        <div>
+           <form align = "center" action = "index.jsp">
+               <input type ="submit" value ="Home">
+           </form>
        </div>
     </body>
 </html>
